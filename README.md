@@ -19,6 +19,7 @@ A full-stack (React + Node.js) web app that helps users track and reduce their c
    cd backend
    node server.js
 
+<<<<<<< HEAD
 2.
 You said:
 I am creating college project which explicitly state the use of both react and nodejs. I want create a simple carbon footprint tracker and i want to access it in my friends laptop in my college so i also want it to be portable I have created a folder carbon-footprint-tracker in desktop now guide me through each step in beginner friendly manner with code and instructions.
@@ -2459,3 +2460,9 @@ A full-stack (React + Node.js) web app that helps users track and reduce their c
    ```bash
    cd frontend
    npm start
+=======
+2.Start the frontend:
+   ```bash
+   cd frontend
+   npm start
+>>>>>>> a5636c10a4b110dbb1c0363ab55edad99b58330d

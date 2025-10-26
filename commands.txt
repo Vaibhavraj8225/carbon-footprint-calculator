@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Is there any idea how we can make it really useful like we use odometer colory tracker and heartrate and also suggest the use of api and features like 
 advice on reducing carbon footprint and logging daily activities like purchases travels and calculating all the carbon emissions on the using the data 
 fetched from api
@@ -8,3 +9,6 @@ install node
 install npm
 cd frontend npm install recharts
 
+=======
+
+>>>>>>> a5636c10a4b110dbb1c0363ab55edad99b58330d
