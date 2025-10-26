@@ -18,3 +18,8 @@ A full-stack (React + Node.js) web app that helps users track and reduce their c
    ```bash
    cd backend
    node server.js
+
+2.Start the frontend:
+   ```bash
+   cd frontend
+   npm start
