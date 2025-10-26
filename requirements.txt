@@ -1,0 +1,81 @@
+🧩 Step 1: Requirements
+
+To run your project, the computer needs:
+
+Node.js & npm
+
+Node.js is the runtime for your backend and frontend.
+
+npm (Node Package Manager) comes with Node.js.
+
+Download & install from: https://nodejs.org
+
+Verify installation:
+
+node -v
+npm -v
+
+
+Git (optional but recommended)
+
+To clone your repository from GitHub.
+
+Download: https://git-scm.com
+
+🧩 Step 2: Clone the Repository
+
+Open PowerShell / Terminal and run:
+
+git clone https://github.com/Vaibhavraj8225/carbon-footprint-calculator.git
+cd carbon-footprint-calculator
+
+
+This downloads all your project files.
+
+Alternatively, you can download ZIP from GitHub and extract it.
+
+🧩 Step 3: Install Dependencies
+
+Your project has two parts: backend and frontend. Both need their dependencies installed.
+
+3.1 Backend
+cd backend
+npm install
+
+
+This installs all Node.js packages needed for the backend (express, cors, pdfkit, etc.).
+
+3.2 Frontend
+
+Open another terminal or go back to root:
+
+cd ../frontend
+npm install
+
+
+This installs all frontend packages (react, axios, recharts, etc.).
+
+🧩 Step 4: Run the Project
+
+You need both backend and frontend running at the same time.
+
+4.1 Start Backend
+cd backend
+node server.js
+
+
+You should see:
+
+✅ Server running on http://localhost:5000
+
+4.2 Start Frontend
+
+In a new terminal:
+
+cd frontend
+npm start
+
+
+This will open the React app in your browser at:
+
+http://localhost:3000
