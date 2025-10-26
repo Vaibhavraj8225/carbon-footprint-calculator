@@ -1,0 +1,74 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f3f9f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.tabs button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #e0e0e0;
+}
+.tabs button.active { background: #4caf50; color: white; }
+
+.mode-toggle button {
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #e8f5e9;
+}
+.mode-toggle .active { background-color: #4caf50; color: white; }
+
+input, select {
+  display: block;
+  margin: 8px auto;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+button:hover { transform: scale(1.03); }
+button:active { transform: scale(0.98); }
+
+.reset-btn {
+  background: #f44336;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+.info-tab ul {
+  text-align: left;
+  line-height: 1.6;
+}
+.info-tab li { margin-bottom: 8px; }
